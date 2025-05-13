@@ -1,4 +1,4 @@
-const BASE_URL = 'https://amazon-mern-58p7.onrender.com'; // 👈 इसे अपने backend के base URL से बदलें
+const BASE_URL = import.meta.env.VITE_API_URL; // 👈 इसे अपने backend के base URL से बदलें
 
 const defaultHeaders = {
     'Content-Type': 'application/json',
